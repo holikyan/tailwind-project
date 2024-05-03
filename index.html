@@ -30,11 +30,15 @@
             FILMS, TV SHOWS, AND EXCLUSIVE CONTENT.
           </p>
         </div>
-        <button class="uppercase pt-2 pr-3 pb-2 pl-3 rounded-xl bg-soft-green">
+        <button
+          class="uppercase pt-2 pr-3 pb-2 pl-3 rounded-xl bg-soft-green hover:bg-gray-700 hover:text-gray-50 transition duration-500"
+        >
           Browse now
         </button>
-        <div class="img-wrapper overflow-hidden rounded-2xl grayscale">
-          <img src="./images/picture1.png " alt="picture1" />
+        <div
+          class="img-wrapper overflow-hidden rounded-2xl grayscale hover:grayscale-0 transition duration-1000 delay-300"
+        >
+          <img src="./assets/images/picture1.png " alt="picture1" />
         </div>
       </header>
       <main>
@@ -46,7 +50,11 @@
             id="user-image-wrapper"
             class="rounded-full overflow-hidden w-20 h-20"
           >
-            <img src="./images/human.png" alt="user" class="grayscale" />
+            <img
+              src="./assets/images/human.png"
+              alt="user"
+              class="grayscale hover:grayscale-0 transition duration-1000 delay-300"
+            />
           </div>
           <div class="w-96">
             <h2 class="text-custom-pink text-5xl pb-5">Minimalism</h2>
@@ -69,7 +77,11 @@
             <div
               class="image-wrapper w-[300px] h-[300px] rounded-2xl overflow-hidden"
             >
-              <img src="./images/picture2.png" alt="image" class="grayscale" />
+              <img
+                src="./assets/images/picture2.png"
+                alt="image"
+                class="grayscale hover:grayscale-0 transition duration-1000 delay-300"
+              />
             </div>
             <h2 class="text-soft-green pt-7">New Releases</h2>
             <p class="text-custom-pink pt-7">
@@ -80,7 +92,11 @@
             <div
               class="image-wrapper w-[300px] h-[300px] rounded-2xl overflow-hidden"
             >
-              <img src="./images/picture4.png" alt="image" class="grayscale" />
+              <img
+                src="./assets/images/picture4.png"
+                alt="image"
+                class="grayscale hover:grayscale-0 transition duration-1000 delay-300"
+              />
             </div>
             <h2 class="text-soft-green pt-7">Top Rated</h2>
             <p class="text-custom-pink pt-7">
@@ -92,9 +108,9 @@
               class="image-wrapper w-[300px] h-[300px] rounded-2xl overflow-hidden"
             >
               <img
-                src="./images/picture3.png"
+                src="./assets/images/picture3.png"
                 alt="image"
-                class="w-[300px] h-[300px] overflow-hidden grayscale"
+                class="w-[300px] h-[300px] overflow-hidden grayscale hover:grayscale-0 transition duration-1000 delay-300"
               />
             </div>
             <h2 class="text-soft-green pt-7">Genre Galore</h2>
@@ -124,28 +140,112 @@
             <div
               class="item-wrapper flex justify-between p-4 border-b border-gray-800"
             >
-              <span class="text-custom-pink">Genres</span>
+              <span class="text-custom-pink">Year</span>
               <span class="text-custom-pink"
-                >Drama, Action, Thriller, and more.
+                >From golden oldies to modern classics.
               </span>
             </div>
             <div
               class="item-wrapper flex justify-between p-4 border-b border-gray-800"
             >
-              <span class="text-custom-pink">Genres</span>
+              <span class="text-custom-pink">Ratings</span>
               <span class="text-custom-pink"
-                >Drama, Action, Thriller, and more.
+                >Find the best-rated movies of all time.
               </span>
             </div>
             <div class="item-wrapper flex justify-between p-4">
-              <span class="text-custom-pink">Genres</span>
+              <span class="text-custom-pink">Actors</span>
               <span class="text-custom-pink"
-                >Drama, Action, Thriller, and more.
+                >Movies starring your favorite actors.
               </span>
             </div>
           </div>
         </div>
+        <div
+          class="class-join-us flex flex-col w-[500px] h-[200px] items-center mx-auto mt-32"
+        >
+          <h1 class="text-custom-pink p-5 text-center text-4xl font-black">
+            Join Us
+          </h1>
+          <p class="text-custom-pink p-5">
+            Ready to elevate your movie nights? Join and become a member of our
+            growing community of movie buffs all around the world.
+          </p>
+          <button
+            class="rounded-xl text-black bg-bg-blush-pink pt-2 pr-3 pb-2 pl-3 p-5 hover:bg-gray-700 hover:text-gray-50 transition duration-500"
+          >
+            Sign Up
+          </button>
+        </div>
       </main>
+      <footer class="mb-28">
+        <div class="links flex justify-center mt-32 gap-x-56">
+          <ul>
+            <li class="text-white pt-2 pb-2 cursor-pointer">Movies</li>
+            <li class="text-custom-pink pt-2 pb-2 cursor-pointer">Browse</li>
+            <li class="text-custom-pink pt-2 pb-2 cursor-pointer">Genres</li>
+            <li class="text-custom-pink pt-2 pb-2 cursor-pointer">
+              New Releases
+            </li>
+          </ul>
+          <ul>
+            <li class="text-white pt-2 pb-2 cursor-pointer">TV Shows</li>
+            <li class="text-custom-pink pt-2 pb-2 cursor-pointer">Popular</li>
+            <li class="text-custom-pink pt-2 pb-2 cursor-pointer">On Air</li>
+            <li class="text-custom-pink pt-2 pb-2 cursor-pointer">Upcoming</li>
+          </ul>
+          <ul>
+            <li class="text-white pt-2 pb-2 cursor-pointer">Account</li>
+            <li class="text-custom-pink pt-2 pb-2 cursor-pointer">Login</li>
+            <li class="text-custom-pink pt-2 pb-2 cursor-pointer">Signup</li>
+            <li class="text-custom-pink pt-2 pb-2 cursor-pointer">Profile</li>
+          </ul>
+        </div>
+        <div class="meta mt-14 flex justify-center gap-80">
+          <div class="left">
+            <svg
+              class="inline"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#f4acb7"
+              width="24px"
+              Updated
+              width
+              to
+              24px
+            >
+              height="24px" width="24px" >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M14.25 7.756a 4.5 4.5 0 1 0 0 8.488M7.5 10.5h5.25m-5.25 3h5.25M21 12a 9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+
+            <p class="text-custom-pink inline">
+              2024 LaunchPad. All rights reserved.
+            </p>
+          </div>
+          <div class="right flex gap-3">
+            <a href="https://www.twitter.com" target="_blank">
+              <img
+                src="./assets/svg/twitter.svg"
+                alt="Twitter icon"
+                class="w-7 h-7 inline"
+              />
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+              <img
+                src="./assets/svg/instagram.svg"
+                alt="instagram-icon"
+                class="w-7 h-7 inline"
+              />
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
